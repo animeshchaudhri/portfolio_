@@ -507,8 +507,8 @@ justify-content: center;
         width: 390px;
     }
     .follow_pfp{
-        width: 875.3px;
-top: -82px;
+        top: -82px;
+    left: -142px;
       }
     
     .profile_phto{
@@ -593,5 +593,8 @@ top: -50px;
 }
 .contact_me>p{
     width: 304px;
+}
+.banner{
+    width: 70vh;
 }
 }
