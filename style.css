@@ -109,12 +109,7 @@ gap: 8px;
     align-items: center;
     justify-content: center;
 }
-.link2{
-    display: flex;
- 
-    align-items: center;
-    justify-content: center;
-}
+
 .name_section >h1{
     color: #F1F3F5;
 font-family: Segoe UI;
@@ -174,6 +169,11 @@ line-height: 24px; /* 150% */
 }
 .link2{
     cursor: pointer;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 .secondnav>ul>li{
  
@@ -283,6 +283,7 @@ line-height: 20px; /* 133.333% */
     font-weight: 400;
     line-height: 16px; /* 125% */
   }
+  
 .content_article{
     display: flex;
     flex-direction: column;
@@ -536,7 +537,7 @@ top: -108px;;
     display: grid;
 justify-items: start;
 align-items: center;
-grid-template-columns: repeat(2,100px) auto;
+grid-template-columns: repeat(1,100px) auto;
 gap: 6px;
 }
 .profile_phto{
@@ -595,6 +596,12 @@ top: -50px;
     width: 304px;
 }
 .banner{
-    width: 70vh;
+    width: 100%;
+}
+/* body{
+    overflow-x: hidden;
+} */
+.main_content_container{
+    overflow: hidden;
 }
 }
