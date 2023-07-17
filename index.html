@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=no>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -28,7 +28,7 @@
     <div class="main_content_container">
       <div class="main_content">
         <div class="banner">
-          <iframe id="inlineFrameExample" title="Inline Frame Example" width="724" height="241" src="particles.html"></iframe>
+          <iframe id="inlineFrameExample" id ="my-iframe"title="Inline Frame Example" width="724" height="241" src="particles.html" onload="resizeIframeToFitContent()"></iframe>
         </div>
         <div class="profile_phto">
           <img src="my.png" alt="noimg" id="profile" srcset="">
