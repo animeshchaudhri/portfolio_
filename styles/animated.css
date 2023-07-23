@@ -27,7 +27,7 @@ body {
     flex-direction: row-reverse;
     background-color: #32303e;
     
-    animation: bedroom-color 6s step-end infinite;
+    /* animation: bedroom-color 6s step-end; */
 }
 .nightstand {
     position: relative;
@@ -73,7 +73,7 @@ body {
     transform: translate(calc(100% * 78 / 75), -100%)
 }
 .clock-front {
-    animation: clock-front-color 6s step-end infinite;
+    animation: clock-front-color 6s step-end ;
 }
 .nightstand-svg {
     position: absolute;
@@ -104,9 +104,7 @@ body {
     position: absolute;
     height: 100%;
 }
-.cat-eye {
-    animation: cat-eye-color 6s step-end infinite;
-}
+
 .cat-paw-svg {
     position: absolute;
     top: calc(100% * 72 / 159);
@@ -114,14 +112,14 @@ body {
     height: calc(100% * 47 / 159);
     transform-origin: 0 0;
     z-index: 1;
-    animation: 3s cat-paw 2.75s linear infinite;
+   
 }
 .lamp-switch-1-svg {
     position: absolute;
     top: calc(100% * 57 / 159);
     left: calc(100% * 163 / 112);
     height: calc(100% * 49 / 159);
-    animation: 3s lamp-switch-1 2.75s linear infinite;
+    
 }
 .lamp-switch-2-svg {
     position: absolute;
@@ -129,7 +127,7 @@ body {
     left: calc(100% * 163 / 112);
     width: calc(100% / 112);
     height: calc(100% * 18 / 159);
-    animation: 3s lamp-switch-2 2.75s linear infinite;
+   
 }
 .blanket-svg {
     position: absolute;
@@ -138,11 +136,39 @@ body {
     height: calc(100% * 144 / 213);
     z-index: 1;
 }
-
+.activity11{
+    animation:  cat-paw 4s linear ;
+}
+.activity13{
+    animation:   lamp-switch-2 4s linear ;
+}
+.activity12{
+  
+    animation:  lamp-switch-1 4s linear ;
+    
+    
+  
+}
+.activity14{
+    animation: cat-eye-color 600s step-end ;
+}
+.activity15{
+    animation: bedroom-color 600s step-end;
+}
+.activity2{
+    animation: hide 600s step-end ;
+    
+}
+.activity3{
+    animation: show 600s step-end ;
+}
+.activity4{
+    animation: darken 600s step-end ;
+}
 /**
  * Animations
  */
-.lamp-light-svg,
+ /* .lamp-light-svg,
 .lamp-glow-svg,
 .lamp-shadow-svg,
 .blanket-shadow,
@@ -153,10 +179,10 @@ body {
 .lamp-shade,
 .clock-button-shadow,
 .cat-eye-pupil {
-    animation: hide 6s step-end infinite;
+    animation: hide 6s step-end ;
 }
 .lamp-shade-dark {
-    animation: show 6s step-end infinite;
+    animation: show 6s step-end ;
 }
 .bed-front-shadow,
 .bed-matress-shadow,
@@ -166,36 +192,36 @@ body {
 .lamp-stem-shadow,
 .lamp-switch-shadow-2,
 .nightstand-shadow {
-    animation: darken 6s step-end infinite;
-}
+    animation: darken 6s step-end ;
+} */
 
-@keyframes bedroom-color {
-    50% {
+ @keyframes bedroom-color {
+    0% {
         background-color: #080810;
     }
 }
 @keyframes clock-front-color {
-    50% {
+    0% {
         fill: #000;
     }
 }
 @keyframes cat-eye-color {
-    50% {
+    0% {
         fill: #fffdb2;
     }
 }
 @keyframes hide {
-    50% {
+    0% {
         fill-opacity: 0;
     }
 }
 @keyframes show {
-    50% {
+    0% {
         fill-opacity: 1;
     }
 }
 @keyframes darken {
-    50% {
+    0% {
         fill-opacity: .86;
     }
 }
@@ -222,4 +248,4 @@ body {
     5% {
         transform: translate(calc(-100% * 9), calc(100% * 10 / 18));
     }
-}
+} 
