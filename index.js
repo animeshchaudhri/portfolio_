@@ -19,6 +19,9 @@ var arr = [0, 0, 0, 0];
 var project_Sec= document.getElementById('project_Sec');
 var contact_con = document.getElementById('contact_con');
 var contactbtn = document.getElementById('contactbtn');
+
+
+
 aboutbtn.addEventListener('click', function() {
   arr[1]=1;
   console.log(arr);
@@ -86,7 +89,7 @@ project_Sec.classList.add("activator");
 });
 const sun = "https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg";
 const moon = "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
-
+document.getElementById("inlineFrameExample2").style.display = "none";
 // document.getElementById('theme-icon').src= sun;
 var a=0;
 mode.addEventListener('click', function() {
@@ -98,7 +101,11 @@ mode.addEventListener('click', function() {
     document.documentElement.classList.add("light")
     window.localStorage.setItem('mode', 'light');
     a=1;
+    document.getElementById("inlineFrameExample").style.display = "none";
+     document.getElementById("inlineFrameExample2").style.display = "block";
+     
     
+   
   }
 
   else {
@@ -109,7 +116,15 @@ mode.addEventListener('click', function() {
     document.documentElement.classList.add("dark");
     window.localStorage.setItem('mode', 'dark');
     a=0;
+    document.getElementById("inlineFrameExample").style.display = "block";
+     document.getElementById("inlineFrameExample2").style.display = "none";
+   
   }
   
 });
+
+
+
+
+ 
 

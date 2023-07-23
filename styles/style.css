@@ -598,6 +598,16 @@ h2 {
 
 #inlineFrameExample {
 	border: #343A40;
+
+}
+#inlineFrameExample2{
+	border: #343A40;
+	
+}
+
+
+.activator2{
+	display: block;
 }
 
 @media only screen and (max-width: 600px) {
