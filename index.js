@@ -87,8 +87,8 @@ home2.classList.remove("activator");
 contact_con.classList.remove("activator");
 project_Sec.classList.add("activator");
 });
-const sun = "https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg";
-const moon = "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg"
+const sun = "https://static-00.iconduck.com/assets.00/full-moon-symbol-emoji-512x512-gxpmisrj.png";
+const moon = "https://static-00.iconduck.com/assets.00/full-moon-emoji-512x512-fgu2yght.png"
 document.getElementById("inlineFrameExample2").style.display = "none";
 // document.getElementById('theme-icon').src= sun;
 var a=0;

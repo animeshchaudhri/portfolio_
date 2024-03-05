@@ -342,6 +342,9 @@ html {
 	line-height: 20px;
  /* 133.333% */;
 }
+#theme-icon{
+	width: 30px;
+}
 
 .data {
 	color: var(--text-color-3);
